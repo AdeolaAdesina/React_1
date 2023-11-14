@@ -120,7 +120,7 @@ const panda = <img src='images/panda.jpg' alt='panda' width='500px' height='500p
 
 You can nest JSX elements inside of other JSX elements, just like in HTML.
 
-Here’s an example of a JSX <h1> element, nested inside of a JSX <a> element:
+Here’s an example of a JSX ```<h1>``` element, nested inside of a JSX ```<a>``` element:
 
 ```
 <a href="https://www.example.com"><h1>Click me!</h1></a>
@@ -188,7 +188,7 @@ The first opening tag and the final closing tag of a JSX expression must belong 
 
 It’s easy to forget about this rule and end up with errors that are tough to diagnose.
 
-If you notice that a JSX expression has multiple outer elements, the solution is usually simple: wrap the JSX expression in a <div> element.
+If you notice that a JSX expression has multiple outer elements, the solution is usually simple: wrap the JSX expression in a ```<div>``` element.
 
 
 ## Rendering JSX
